@@ -234,7 +234,7 @@ const showModel1 = () => {
 
     let showArray = JSON.parse(localStorage.getItem('createFun')) || [];
     let showName = showArray.map(ele => ele.fname).join(" , ");
-    document.getElementById('fnames').innerHTML = `Select Name : ${showName}`;
+    document.getElementById('fnames').innerHTML = `${showName}`;
 
 }
 
